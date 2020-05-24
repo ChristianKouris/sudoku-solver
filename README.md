@@ -12,7 +12,7 @@ Implement a constraint solver for Sudoku puzzles using backtracking search. Pseu
 
 When making decisions, we recommend using the heuristic of choosing an unassigned variable with the smallest domain. You can see the difference with and without this heuristic. But as long as you pass the following tests, you do not have to use this heuristic. 
 
-For testing, there are four options you can use with "python main.py -t":
+For testing, there are four options you can use with "python main.py -t ...":
 - 0: "Propagation only" test. A really simple test case that can be solved without search.
 - 1: "Propagation and search" test. A hard test case that requires both propagation and search.
 - 2: Provides 50 easy test cases. 
